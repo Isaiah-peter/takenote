@@ -58,7 +58,7 @@
     }
     &.star {
       &:hover {
-        color: $yellow;
+        color: darken($yellow, 10%);
       }
     }
     &.eye {

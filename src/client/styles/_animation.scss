@@ -1,0 +1,18 @@
+@keyframes moveCenter {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    position: absolute;
+    top: -1000%;
+    left: 50%;
+    transform: scale(3);
+    fill: $font-color;
+    opacity: 1;
+  }
+  100% {
+    position: absolute;
+    top: 1000%;
+    left: 0%;
+  }
+}
